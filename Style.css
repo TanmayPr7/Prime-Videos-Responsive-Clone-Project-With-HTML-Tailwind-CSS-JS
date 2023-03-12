@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+
+.prof{
+    @apply w-[108px] h-[108px] rounded-md;
+}
+.profimg{
+    @apply w-full rounded-md
+}
+.profnm{
+    @apply text-center text-[17px] py-2;
+}
+
+.size{
+    @apply pt-[22px] pl-5 pr-1 w-full;
+}
+
+.sizef{
+    @apply font-semibold pb-1.5 max-w-[242px];
+}
+
+.msize{
+    @apply md:pl-8 md:pr-1.5 md:pt-[25px];
+}
+
+.msizef{
+    @apply md:text-[19.5px] md:max-w-[500px];
+}
+
+.lsize{
+    @apply lg:pl-[90px] lg:pr-3 lg:pt-8;
+}
+
+.lsizef{
+    @apply lg:text-[20px] lg:pb-[7px];
+}
+
+.scroller{
+    @apply grid grid-flow-col overflow-x-auto no-scrollbar auto-cols-[52%] gap-2 md:auto-cols-[31%] md:gap-3.5 lg:auto-cols-[22%] lg:gap-4;
+}
+
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {                                             /*Hidding Scrollbar*/
+          display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+       }
+    }
+  }
+
+@keyframes turn {
+    0%{
+        opacity: 0;
+        transform: rotateX(10deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
