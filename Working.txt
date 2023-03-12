@@ -1,0 +1,15 @@
+Basically, it's a Prime Videos Clone Web Development project, created using HTML, Tailwind CSS, and JavaScript.
+A few of its features include responsiveness *better than actual website, hover effects, transitions, animations, consitent UI,
+uncluttred layout, netflix inspired navbar and many more. Contains all the features of the Prime Videos & many more. As a beginner,
+this is a fun, exciting, and challenging to create something which we use regularly in our day to day life, as a project that I personally
+enjoyed making. For this project there are no specific working principles, but as a habit,
+I leave a little note in every project stating the working principle,  and so here it is.
+
+This is the basic working principle & personal note on this Web Dev Project:)
+
+Some Important Commands To Work With Tailwind CSS With Node JS:
+1.To generate npm modules folder
+=> npm run init
+2.To compress project file in simgle folder
+=> npm run build (Note: Before running this command make sure to add "build": {"vite build",} in the script section of package.json)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
